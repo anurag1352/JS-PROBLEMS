@@ -72,3 +72,8 @@ function capitalizeword(word){
     return word.charAt(0).toUpperCase() + word.slice(1);
 }
 console.log(capitalizeword("hello"));
+
+//Q.15 => Given "test@example.com", convert it to "t***@example.com".
+let email = "test@gmail.com";
+let editMail = email.replace("est" , "***");
+console.log(editMail);
